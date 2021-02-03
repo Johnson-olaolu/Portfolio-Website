@@ -1,0 +1,306 @@
+@import url("./global.css");
+
+.header_area .main_menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main_menu .navbar {
+    padding: 1rem 20rem;
+}
+
+.header_area .main_menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main_menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main_menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*Banner Area*/
+
+.site_main .site_banner {
+    background: url("../images/banner/home-banner.png") no-repeat 0% 50%;
+}
+
+.site_main .site_banner .site_title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site_main .site_banner .site_title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site_main .site_banner .site_title h1 {
+    font-size: 4rem;
+}
+
+.site_main .site_banner .site_title h4 {
+    font-size: 1.5rem;
+}
+
+.site_main .site_banner .banner_image>img {
+    padding: 7rem 0;
+   /* width: 90rem; */
+}
+
+/* About Area*/
+
+.site_main .about_area {
+    padding: 8rem 5rem;
+}
+
+.site_main .about_area .about_title h2>span {
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 15px;
+}
+
+.site_main .about_area .about_title .paragraph>p {
+    padding: 0.4rem 0;
+}
+
+/*Brand Area*/
+
+.site_main .brand_area {
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.site_main .brand_area .first_row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.site_main .brand_area .first_row .col-lg-4>.single_brand {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0;
+    margin: 0.9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.site_main .brand_area .first_row .col-lg-4>.single_brand>img {
+    width: 50%;
+}
+
+.site_main .brand_area .first_row .col-lg-4>.single_brand:hover {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.site_main .brand_area .first_row .col-lg-4>.single_brand:hover>img {
+    filter: brightness(0.15);
+}
+
+.site_main .brand_area .experience_area {
+    padding-left: 1rem;
+}
+
+.site_main .brand_area .experience_area span {
+    display: block;
+}
+
+.site_main .brand_area .experience_area .years_area {
+    background: url('../images/client-info-bg.png') no-repeat 45px 20px;
+    padding:  rem 0;
+    width:  40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.site_main .brand_area .experience_area .bg_panel {
+    position: absolute;
+    left: -190px;
+    top: 0px;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+
+.site_main .brand_area .experience_area .years_area .years {
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+
+.site_main .brand_area .experience_area h2>span {
+    font: normal 600 22px/30px var(--roboto);
+}
+
+.site_main .brand_area .experience_area .call_area {
+    padding-left: 10rem;
+}
+
+/* Services area*/
+.site_main .services_area {
+    padding: 7rem 2rem;
+}
+
+.site_main .services_area .services_title {
+    padding: 0 14rem;
+}
+
+.site_main .services_area .services_title h1 {
+    font-size: 35px;
+}
+
+.site_main .services_area .services {
+    background: rgba(248, 252, 253 , .973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition:  box-shadow .7s ease;
+}
+
+.site_main .services_area .services:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/* Project Area*/
+
+.site_main .project_area {
+    padding: 4rem 0;
+}
+
+.site_main .project_area .button_group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site_main .project_area .button_group button {
+    padding-right: 3rem;
+}
+
+.site_main .project_area .grid .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* Testimonial*/
+.site_main .testimonial .testimonial_title p {
+    padding: 1rem 7rem;
+}
+
+.site_main .testimonial .client {
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site_main .testimonial .client .client-img {
+    padding: 2rem;
+}
+
+.site_main .testimonial .client .testimonial_client {
+    padding-top: 2rem;
+}
+
+.site_main .testimonial .client .testimonial_client h4 {
+    font: normal 500 21px/20px var(--roboto);
+}
+
+.site_main .testimonial .client .testimonial_client p {
+    font-size: 14px;
+}
+
+.site_main .testimonial .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    padding:  0 1.5rem;
+}
+
+.site_main .testimonial .owl-carousel .owl-dots .owl-dot .active span {
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+.site_main .subscribe_area .subscribe {
+    background: url('../images/subscribe-bg.png') no-repeat;
+    padding: 10rem  0;
+    margin: 3rem auto;
+}
+
+.site_main .subscribe_area .subscribe .subscribe_title h4 {
+    font: normal 700 30px/30px var(--roboto);
+    color: whitesmoke;
+}
+
+.site_main .subscribe_area .subscribe .subscribe_title p {
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.site_main .subscribe_area .subscribe form .input_textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500px 18px/20px var(--roboto);
+}
+
+.site_main .subscribe_area .subscribe form .input_textbox input::placeholder {
+    color: whitesmoke;
+}
+
+.site_main .subscribe_area .subscribe form .btn_submit .btn {
+    background-color: whitesmoke;
+    color: black;
+    padding: .7rem 2rem;
+}
+
+
+/*footer */
+
+.footer_area {
+    padding: 5rem 0;
+    background: url('../images/footer-bg.png') no-repeat;
+}
+
+.footer_area .social h5 {
+    font: normal 500 24px/30px var(--roboto);
+    padding: 2rem;
+}
+
+.footer_area .social a {
+    font-size:  24px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+.footer_area .social a:hover {
+    
+    color: var(--primary-color);
+}
+
+.footer_area .social {
+    padding-bottom: 2rem;
+}

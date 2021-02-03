@@ -1,0 +1,79 @@
+@media only screen and (max-width : 340px) {
+
+    .header_area .main_menu .navbar,
+    .header_area .main_menu .navbar .navbar-brand,
+    .site_main .subscribe_area .subscribe .subscribe_title,
+    .site_main .subscribe_area .subscribe .subscribe_title p,
+    .site_main .subscribe_area .subscribe .subscribe_title h4,
+    .site_main .services_area,
+    .site_main .subscribe_area .subscribe {
+        padding: 2%;
+        margin: 0;
+    }
+
+    .site_main .site_banner .site_title h1 {
+        font-size: 41px;
+    }
+
+    .site_main .subscribe_area .subscribe form .input_textbox input {
+        width: 15rem;
+    }
+
+    .site_main .services_area .services {
+        width: 13rem;
+    }
+
+}
+
+@media only screen and (max-width : 792px) {
+    .site_main .about_area .about_title h2>span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site_main .brand_area .experience_area .years_area {
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site_main .brand_area .experience_area .bg_panel {
+        margin-left: 30%;
+        width: 80%;
+    }
+
+    .site_main .brand_area .experience_area .call_area {
+        padding-left: 3%;
+    }
+
+    .site_main .project_area .button_group button {
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site_main .testimonial .testimonial_title p {
+        padding: 0;
+    }
+
+    .site_main .subscribe_area .subscribe form .input_textbox input {
+        width: 20rem;
+        margin: 5%;
+    }
+
+
+}
+
+@media only screen and (max-width : 1910px) {
+    .header_area .main_menu .navbar {
+        padding: 1rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .site_main .brand_area,
+    .site_main .services_area .services_title,
+    .site_main .about_area
+     {
+        padding: 3% 4%;
+    }
+}
